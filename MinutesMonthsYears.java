@@ -21,8 +21,8 @@ public class MinutesMonthsYears {
         Scanner sc = new Scanner(System.in);
         int minute = sc.nextInt();
         int luni = minute*1000/10080/4345;
-        int ani = luni/12;
-        System.out.println("in " +minute + " minute se contin " +luni + "  luni si " + ani + " ani");
-    }
+	   int zile = minute/1440;
+        System.out.println("in " +minute + " minute se contin " +zile + " zile sau "+luni + "  luni, sau " + ani + " ani");
+            }
 
 }
