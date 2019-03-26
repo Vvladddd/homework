@@ -17,7 +17,7 @@ public class Operations {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Introduceti doua numere");
+        System.out.println("Introduceti doua numereó");
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
